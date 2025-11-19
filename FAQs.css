@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.herosection {
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    height: 100vh;
+    background-position: center;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10%; */
+}
+
+.herodiv {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.062);
+    padding: 40px 50px;
+    border-radius: 20px;
+    margin: 10% 10%;
+    max-width: 600px;
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.herodiv h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.hero-con{
+    height: 100vh;
+    background-color: rgba(82, 82, 241, 0.384);
+    width: 100%;
+}
+.herodiv p {
+    font-size: 14x;
+    margin-bottom: 25px;
+}
+
+.herodiv button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #00b4ff;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.herodiv button:hover {
+    background: #008ecc;
+    transform: scale(1.05);
+}
+.about{
+    background-color: #008ecc;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.about h2{
+    font-size: 70px;
+    font-weight: lighter;
+}
+.about p{
+    font-size: 30px;
+}
