@@ -29,6 +29,9 @@
         text-align: center;
         gap: 30px;
         align-content: center;
+    }
+    .map{
+        max-width: 300px !important;
     } 
     .location{
         flex-direction: column;
@@ -399,7 +402,7 @@ footer{
     gap: 10px;align-items: center;
     justify-content: center;
 }
-.cnnt1{
+.connection-link{
     div{
         display: flex;
         gap: 10px;
